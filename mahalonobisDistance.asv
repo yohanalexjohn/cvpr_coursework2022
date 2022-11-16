@@ -1,0 +1,2 @@
+function distance = mahalonobisDistance(query, candidate)
+    

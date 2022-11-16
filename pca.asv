@@ -1,0 +1,6 @@
+function principal_component_analysis = pca(img)
+
+E = Eigen_Build(img);
+E=Eigen_Deflate(E,'keepf',1);
+pobs=Eigen_Project(obs,E);
+
